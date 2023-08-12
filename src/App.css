@@ -1,0 +1,90 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.cart-button {
+  margin: 20px;
+  position: relative;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.cart-button:hover {
+  transform: scale(1.1);
+  background-color: #2580b3;
+}
+
+.cart-button svg {
+  margin-right: 10px;
+}
+
+@keyframes heartAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.added {
+  animation: heartAnimation 1.5s ease-in-out;
+}
+
+.heart-icon {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 18px;
+  color: red;
+}
+
+.cart-count-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.shopping-cart-container {
+  display: none;
+}
+
+.app-container.invisible {
+  display: none;
+}
+
+.shopping-cart-container.visible {
+  display: block;
+}
+
+img {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
