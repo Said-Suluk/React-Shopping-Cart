@@ -1,3 +1,10 @@
+![Screenshot_4](https://github.com/Said-Suluk/React-Shopping-Cart/assets/130802359/18ba6e6b-58c9-4c5b-b9d7-8569d4fb1440)
+![Screenshot_1](https://github.com/Said-Suluk/React-Shopping-Cart/assets/130802359/2010864d-1aa5-4ac8-afff-f22bdfd3d364)
+![Screenshot_2](https://github.com/Said-Suluk/React-Shopping-Cart/assets/130802359/75a6e3e0-1bff-4db0-aa99-3be4bec60f40)
+![Screenshot_3](https://github.com/Said-Suluk/React-Shopping-Cart/assets/130802359/5a499eb4-cbcc-4a9c-8a1c-a8a74cd0c8d9)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
